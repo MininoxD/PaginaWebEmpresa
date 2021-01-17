@@ -1,12 +1,14 @@
-title: Pagina Web Minera
-description: Pagina Web informativa
-author: Luis Enrique
-created:  2014 Octubre
-stack: PHP,HTML,CSS,JS
+Titulo: Pagina Web Minera
+<br/>
+Descripcion: Pagina Web informativa
+<br/>
+Autor: Luis Enrique
+<br/>
+Creado:  2014 Octubre
+<br/>
+Stack: PHP,HTML,CSS,JS
 
 
-Solarized
-=========
 
 ## Pagina Web Minera
 
