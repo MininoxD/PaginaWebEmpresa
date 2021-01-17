@@ -1,0 +1,327 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td{background: transparent;border: 0;margin: 0;padding: 0;vertical-align: baseline}
+/*Fuentes Google*/
+
+/*termina google Font*/
+body {
+min-width: 960px;
+}
+/*Aca enpiesa los css de lso servicios*/
+#serv >label >h4 {
+	border-top: 4px solid #ffcc33;
+	padding-top: 3px;
+	color: #336633;
+	font-family: 'Dosis', sans-serif;
+	text-align: center;
+}
+#serv > label > p {
+	padding-left: 6px;
+	font-size: 17px;
+	margin-top: 10px;
+	border-left: 6px solid rgba(204,0,0,0.7);
+}
+/*aca termina el css de lso servicios */
+/*Cuerpo de la pagian web*/
+#contenido,#servicios> label > h2 {
+	color: #cc0033;
+	margin-top: 10px;
+}
+
+#contenido > label > p{
+	font-size: 18px;
+	border-bottom:solid 1px #cccccc;
+	text-align: justify;
+	color: #666666;
+	font-family: 'Abel', sans-serif;
+}
+#contenido >label > img {
+	width: 280px;
+	height: 200px;
+	margin-top: 50px;
+}
+/*Termina cuerpo dela pagian web*/
+.pie{
+	margin: 30px 10px 30px 0px;;
+	border-bottom: 2px solid #666666;
+	
+}
+.pie > h2 {
+	text-align: center;
+	margin-bottom: 15px;
+	color: #ffffff;
+	font-family: Arvo, Georgia, serif;
+	font-size: 20px;
+}
+.pie > div > p{
+	color: #888888;
+	font-family: 'Abel', sans-serif;
+}
+.base{
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+}
+.cont{
+	margin: 40px 20px 40px 0px;
+}
+.base .base3{
+	width:300px;
+}
+
+.base .base4{
+	width:600px;
+}
+.base .base5{
+	width: 220px;
+}
+.base3,.base4,.base5{
+	float: left;
+	position: relative;
+}
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+header {
+	background: -moz-linear-gradient(top, rgba(234,239,181,0.27) 0%, rgba(225,233,160,0.8) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(234,239,181,0.27)), color-stop(100%,rgba(225,233,160,0.8))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(234,239,181,0.27) 0%,rgba(225,233,160,0.8) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(234,239,181,0.27) 0%,rgba(225,233,160,0.8) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(234,239,181,0.27) 0%,rgba(225,233,160,0.8) 100%); /* IE10+ */
+    background: linear-gradient(to bottom, rgba(234,239,181,0.27) 0%,rgba(225,233,160,0.8) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45eaefb5', endColorstr='#cce1e9a0',GradientType=0 ); /* IE6-9 */
+	color: #848484;
+}
+/*aca enpiesa las redes*/
+#caja_nosotros {
+	padding-bottom: 25px;
+}
+#caja_newsleater{
+	padding-bottom: 20px;
+}
+#caja_newsleater > input{
+	font-family: 'Oswald', sans-serif;
+	margin-top: 15px;
+	padding: 5px;
+  width: 200px;
+  border: 1px solid #cccccc;
+  border-radius: 7px;
+	}
+#caja_redes {
+	padding-bottom: 105px;
+	margin-right: 100px;
+}
+.redes_float {
+	margin-left: 7px;
+	float: right;
+}
+#Skype{
+	
+	display: block;
+	width: 32px;
+	height: 32px;
+	-moz-transition:2s;
+	transition:2s;
+	background-image: url(../img/Sky_01.png);
+}
+#Skype:hover{
+	background-image: url(../img/Sky_02.png);
+}
+#Tuwi{
+	display: block;
+	width: 32px;
+	height: 32px;
+	-webkit-transition:2s;
+	-moz-transition:2s;
+	transition:2s;
+	background-image: url(../img/Tw_01.png);
+}
+#Tuwi:hover{
+	background-image: url(../img/Tw_02.png);
+}
+#Face{
+	display: block;
+	width: 32px;
+	height: 32px;
+	-webkit-transition:2s;
+	-moz-transition:2s;
+	transition:2s;
+	background-image: url(../img/Facebook_01.png);
+}
+#Face:hover{
+	background-image: url(../img/Facebook_02.png);
+}
+#logo a span {
+	display: none;
+}
+/*Logo*/
+#logo {
+	padding-top: 15px;
+	padding-bottom: 12px;
+}
+/*Finde css logo*/
+/*--Navegador del Menu--*/
+#pasco {
+	margin-top: 5px;
+	margin-right: 50px;
+	float: right;
+	width: 22px;
+	height: 30px;
+	background-image: url(../img/pasco_1.png);
+	background-repeat: no-repeat;
+	background-size: 22px 30px;
+}
+#pasco > p{
+	margin-top: 7px;
+	margin-left: 25px;
+}
+#peru {
+	margin-top: 10px;
+	margin-left: 15px;
+	float: left;
+	width: 35px;
+	height: 20px;
+	background-image: url(../img/bandera_01.png);
+	background-repeat: no-repeat;
+	background-size: 35px 20px;
+}
+#peru > p{
+	margin-top: 3px;
+	margin-left: 40px;
+}
+#navega {
+	background-color: #333333;
+	color: #fff;
+	width: auto;
+	height: 40px;
+}
+nav ul {
+	list-style-type: none;
+	list-style-position: inside;
+	padding-right: 250px;
+}
+
+nav ul li {
+	font-size: 17px;
+	display: block;
+	float: right;
+	padding-right: 30px;
+	padding-top:10px;
+}
+
+nav ul li a{
+	padding: 10px 4px 10px 4px;
+	text-decoration: none;
+	color: #fff;
+	-moz-transition:1s;
+	transition: 1s;
+}
+
+nav ul li a:hover{
+	padding-bottom:4px;
+	border-bottom:1px solid #fff;
+	text-decoration: none;
+	color: #ff3333;
+}
+nav ul li a:active{
+	background-color: rgba(204,51,51,0.5);
+}
+/* Animacion  de slide*/
+#galeria {
+	padding-bottom: 10px;
+}
+#slider {
+	position: relative;
+}
+
+.caption{
+	position: absolute;top:280px;
+	background-color: rgba(255,204,0,0.5);
+	width: 960px;
+	height: 40px;
+	font-size: 25px;
+	color:#330000;
+	padding-top: 8px;
+	padding-left: 50px;
+}
+/*Aca Empiesa EL fotter */
+body > footer {
+	background-color: #333333;
+}
+
+
+
+/*Pagina de Personales */
+.caja_personal{
+	margin-left: 50px;
+	margin-top: 30px;
+} 
+.foto_personal >img{
+	box-shadow: 0px 0px 25px #336633;
+}
+.foto_personal {
+	float: left;
+}
+.bibliografia {
+	margin-top: 30px;
+	margin-left: 10px;
+	padding: 10px;
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	float: left;
+	background-color: #cccccc;
+	width: 650px;
+	border: 4px solid #333333;
+}
+
+
+/*Contactenos*/
+#formulario > h3 {
+	width: 500px;
+	margin-top: 15px;
+	padding-bottom: 6px;
+	margin-bottom: 8px;
+	border-bottom: 2px solid #474747;
+	font-family: 'Oswald', sans-serif;
+}
+#formulario > form > input {
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+.rellenar {
+	border: 1px solid #666666;
+	border-radius: 5px;
+	font-size: 15px;
+	height: 25px;
+	padding: 3px 5px 3px 10px;
+}
+.rellanar2 {
+	font-size: 15px;
+	padding: 7px 7px 7px 12px;
+	border: 1px solid #666666;
+	border-radius: 5px;
+}
+.boton {
+	background: #ff9844; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ff9844 0%, #ff8307 37%, #ff8307 60%, #ff9f3f 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff9844), color-stop(37%,#ff8307), color-stop(60%,#ff8307), color-stop(100%,#ff9f3f)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ff9844 0%,#ff8307 37%,#ff8307 60%,#ff9f3f 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ff9844 0%,#ff8307 37%,#ff8307 60%,#ff9f3f 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ff9844 0%,#ff8307 37%,#ff8307 60%,#ff9f3f 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ff9844 0%,#ff8307 37%,#ff8307 60%,#ff9f3f 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9844', endColorstr='#ff9f3f',GradientType=0 ); /* IE6-9 */
+
+
+
+	font-size: 20px;
+	font-family: 'Nunito', sans-serif;
+	color:#333333;
+	border-radius: 5px;
+	width: 150px;
+	height: 30px;
+	border: 1px solid #666666;
+	box-shadow: 0px 0px 7px #666666;
+}
