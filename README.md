@@ -2,8 +2,6 @@ Titulo: Pagina Web Minera
 <br/>
 Descripcion: Pagina Web informativa
 <br/>
-Autor: Luis Enrique
-<br/>
 Creado:  2014 Octubre
 <br/>
 Stack: PHP,HTML,CSS,JS
